@@ -1,7 +1,7 @@
 {
-  "name": "%REPLACE_ME%",
+  "name": "vibe-coding-demo",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -31,5 +31,7 @@
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.30.1",
     "vite": "^6.3.5"
-  }
+  },
+  "description": "A web application built with React, Vite, Tailwind CSS, and PWA support.",
+  "homepage": "https://rfi835.github.io/vibe-coding-demo/"
 }
