@@ -5,7 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/%REPLACE_ME%/', // Set base for GitHub Pages deployment
+  base: '/vibe-coding-demo/', // Set base for GitHub Pages deployment
   plugins: [
     react(),
     tailwindcss(),
@@ -13,13 +13,13 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['vite.svg'],
       manifest: {
-        name: '%REPLACE_ME%',
-        short_name: '%REPLACE_ME%',
-        description: '%REPLACE_ME%',
+        name: 'Vibe Coding Demo',
+        short_name: 'VibeDemo',
+        description: 'A web application built with React, Vite, Tailwind CSS, and PWA support.',
         theme_color: '#242424',
         background_color: '#242424',
         display: 'standalone',
-        start_url: '/%REPLACE_ME%/',
+        start_url: '/vibe-coding-demo/',
         icons: [
           {
             src: 'vite.svg',
